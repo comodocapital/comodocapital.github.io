@@ -1,0 +1,60 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+
+    <title>Fort Point Angels - fortpointangels.com</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="grid-y" style="height: 100vh">
+        <div class="cell small-4 medium-4 large-4"></div>
+        <div class="cell small-4 medium-4 large-4">
+            <div class="grid-x">
+                <div class="cell small-4 medium-4 large-4"></div>
+                <div class="cell small-4 medium-4 large-4" id="z22">
+                    <h1>fortpointangels.com</h1>
+                    <p>domain name is available for sale</p>
+                    <div class="reveal" id="modal" data-reveal>
+                        <form action="https://formspree.io/f/xdobdvqg" method="post">
+                            <label for="email">Your Email</label>
+                            <input name="Email" id="email" type="email" required placeholder="your@email.com">
+                            <label for="message">Your Message</label>
+                            <textarea name="message" id="" cols="30" rows="10" required placeholder="Please enter your massage"></textarea>
+                            <button type="submit" class="button">Submit</button>
+                          </form>
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <button data-open="modal" type="button" class="button large">submit your
+                        offer</button>
+                </div>
+                <div class="cell small-4 medium-4 large-4"></div>
+            </div>
+        </div>
+        <div class="cell small-4 medium-4 large-4"></div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(document).foundation();
+        })
+    </script>
+</body>
+
+</html>

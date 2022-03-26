@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Roboto&display=swap');
+
+body {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.95em;
+}
